@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.headerLeft a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--clr-light);
+}
+.header__icon{
+    width: 50px;
+}

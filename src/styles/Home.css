@@ -1,0 +1,106 @@
+.posterImage{
+    height: 600px;
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage__overlay {
+    position: absolute;
+    padding: 5rem 0;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}   
+
+.posterImage__overlay:hover {
+    opacity: 1;
+}
+
+.posterImage__title {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage__runtime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 3rem;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    /* width: 50%; */
+}
+
+
+
+/* xs */
+@media (min-width: 475px){
+    .container{
+        max-width: 475px;
+    }
+  }
+  
+  /* sm */
+  @media (min-width: 640px){
+    .container{
+        max-width: 640px;
+    }
+    .posterImage__title {
+        font-size: 2.5rem;
+    }
+  }
+  
+  /* md */
+  @media (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+    .posterImage__description {
+        width: 50%;
+    }
+    .posterImage__title {
+        font-size: 4rem;
+    }
+  }
+  
+  /* lg */
+  @media (min-width: 1024px){
+    .container{
+        max-width: 1024px;
+    }
+  }
+  
+  /* xl */
+  @media (min-width: 1280px){
+    .container{
+        max-width: 1280px;
+    }
+  }
+  
+  /* 2xl */
+  @media (min-width: 1536px){
+    .container{
+        max-width: 1536px;
+    }
+  }

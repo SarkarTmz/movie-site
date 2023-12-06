@@ -1,0 +1,11 @@
+.footer{
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
+.footer__content{
+    text-align: center;
+    padding-top: 4rem;
+}
+.footer__content a{
+    text-decoration: none;
+}
