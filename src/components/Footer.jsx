@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer__content container">
             <h3>This is movie demo site.</h3>
             <p>All copyright reserved</p>
-            <p>Archtect by <a href="https://sonamtmg.vercel.app/">Sonam Tamang</a></p>
+            <p>Archtect by <a href="https://sonamtmg.vercel.app/" target='_blank'>Sonam Tamang</a></p>
         </div>
         </div>
     </>

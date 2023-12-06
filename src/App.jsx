@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import MovieList from './components/MovieList'
 import Footer from './components/Footer'
+import MobileNav from './components/MobileNav'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <div className="app container">
       <BrowserRouter>
       <Header/>
+      <MobileNav/>
         <Routes>
         <Route index element = {<Home/>} />
         <Route path='movie/:id' element={<h1>Movie details page</h1>} />

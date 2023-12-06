@@ -1,0 +1,94 @@
+   
+.mobile-nav{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+img.mobile-logo{
+    width: 35px;
+    border-radius: 20%;
+}
+.bar{
+    font-size: 30px;
+    cursor: pointer;
+}
+.mobile-li ul{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    /* text-align: center; */
+    gap: 1rem;
+}
+.mobile-li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--clr-dark);
+    font-weight: 600;
+    /* margin-top: 3rem; */
+    /* text-align: center; */
+}
+.mobile-li{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    width: 75%;
+    background-color: rgb(235, 235, 235);
+    color: var(--clr-light);
+}
+.menu-li{
+    display: none;
+}
+
+
+/* xs */
+@media (min-width: 475px){
+    .container{
+        max-width: 475px;
+    }
+}
+  
+  /* sm */
+  @media (min-width: 640px){
+    .container{
+        max-width: 640px;
+    }
+  }
+  /* md */
+  @media (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+    .mobile-nav{
+        display: none;
+     }
+  }
+   
+    /* xl */
+    @media (min-width: 1024px){
+        .container{
+            max-width: 1024px;
+        }
+    }
+    
+    /* 2xl */
+    @media (min-width: 1280px){
+        .container{
+            max-width: 1280px;
+        }
+    }
+    
+    /* 3xl */
+    @media (min-width: 1536px){
+        .container{
+            max-width: 1536px;
+        }
+    }
+    
+    
+  
