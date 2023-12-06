@@ -23,7 +23,7 @@ img.mobile-logo{
     gap: 1rem;
 }
 .mobile-li a{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: var(--clr-dark);
     font-weight: 600;

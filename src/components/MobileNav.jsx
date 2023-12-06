@@ -10,7 +10,6 @@ const MobileNav = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen)
   };
 
   return (

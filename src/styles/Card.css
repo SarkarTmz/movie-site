@@ -29,7 +29,7 @@
 
 }
 
-.cards__overlay {
+.card__overlay {
     position: absolute;
     padding: 0 1rem 1rem 1rem;
     bottom: 0px;
@@ -43,7 +43,7 @@
     transition: opacity .2s;
 }   
 
-.cards__overlay:hover {
+.card__overlay:hover {
     opacity: 1;
 }
 

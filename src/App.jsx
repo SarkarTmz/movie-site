@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import MovieList from './components/MovieList'
 import Footer from './components/Footer'
 import MobileNav from './components/MobileNav'
+import Movie from './pages/Movie'
 
 function App() {
 
@@ -17,8 +18,8 @@ function App() {
       <MobileNav/>
         <Routes>
         <Route index element = {<Home/>} />
-        <Route path='movie/:id' element={<h1>Movie details page</h1>} />
-        <Route path='movie/:type' element={<MovieList/>} />
+        <Route path='movie/:id' element={<Movie/>} />
+        <Route path='movies/:type' element={<MovieList/>} />
         <Route path='*' element={<h1>Eoor page</h1>} />
         </Routes>
       </BrowserRouter>
